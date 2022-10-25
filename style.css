@@ -1,0 +1,147 @@
+.hana1 {
+  color: antiquewhite;
+}
+.hana2 {
+  color: antiquewhite;
+}
+.hana3 {
+  color: antiquewhite;
+}
+.hana4 {
+  color: aqua;
+}
+
+.table {
+  color: aqua;
+}
+.hana {
+  color: aqua;
+}
+.hana2 {
+  color: aqua;
+}
+.hana3 {
+  color: antiquewhite;
+}
+.hana4 {
+  color: aqua;
+}
+.hana5 {
+  color: rgb(255, 0, 149);
+}
+.hana6 {
+  color: rgb(226, 43, 171);
+}
+.hana7 {
+  color: aqua;
+}
+.rihana {
+  color: antiquewhite;
+}
+
+.tulisan {
+  color: rgb(255, 255, 255);
+}
+.tulisan {
+  text-indent: 50px;
+  text-align: justify;
+}
+.tulisan1 {
+  letter-spacing: 10px;
+}
+.card-title {
+  color: aquamarine;
+}
+.card-title1 {
+  color: rgb(255, 196, 0);
+}
+.card-title2 {
+  color: black;
+}
+.card-title3 {
+  color: rgb(233, 36, 36);
+}
+.text-center {
+  color: antiquewhite;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: rgb(119, 18, 18);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+.foto-hana {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.tittle {
+  font-family: "Roboto", sans-serif;
+}
+#hero {
+  height: 75vh;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.jumbotron {
+  background-color: rgba(214, 197, 179, 0.664);
+}
+.aku1 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.tittle {
+  color: #333;
+}
+.lead {
+  color: #111;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #e2edff;
+}
+.raihana {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.display-4 {
+  color: rgb(155, 104, 189);
+}
+.col {
+  color: rgb(105, 107, 212);
+}
+.experience {
+  background-color: rgb(155, 104, 189);
+}
+.text-primary {
+  color: aqua;
+}
+.han {
+  color: aqua;
+}

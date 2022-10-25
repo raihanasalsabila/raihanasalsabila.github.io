@@ -1,90 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofolio</title>
-  <style type="text/css">
-    body{background-color: aliceblue;}
-    table{color: rgb(231, 19, 136);}
-    .hana{color: blue;}
-    .hana2{color: rgb(255, 0, 140);}
-    .hana3{color: rgb(4, 0, 255);}
-    .hana4{color: blue;}
-    .hana5{color: rgb(255, 0, 149);}
-    .hana6{color: rgb(226, 43, 171);}
-    .menu ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        .menu li {
-            float: left;
-        }
-
-        .menu li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .menu li a:hover {
-            background-color: #111;
-        }
-
-  </style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-    <body>
-      <div class="menu">
-        <ul>
-            <li><a href="index.html">Biodata </a></li>
-            <li> <a href="">portofolio</a></li>
-        </ul>  
-    </div>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-primary shadow-sm">
+        <div class="container-fluid"> 
+            <div class="collapse navbar-collapse"id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" aria-current="page" href="index.html">Biodata</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-dark" aria-current="page" href="portofolio.html">Portofolio</a>
+              </li>
+            </ul>
+            <div>
+            </div>
+      </nav>
+
+      <div class="jumbotron text-center">
+        <img src="han.jpg" class="raihana rounded-circle" alt="">
+  <h1 class="display-4 mb-0">Hello, World!</h1>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,90.7C384,85,480,139,576,186.7C672,235,768,277,864,250.7C960,224,1056,128,1152,96C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</div>
     
-       <h1 class="hana">Raihana Salsabila</h1>
-        <img src="foto.jpg" alt="300" height="300">
-        <h2 class="hana3">Helloo i'm Hanaa</h2>
-    </body>
-            <p class="hana2"> Helloo,,,, nama lengkap saya adalah Raihana Salsabila dan saya sekarang berumur 21 tahun.
-                   Saya memiliki kemampuan mudah beradaptasi ketika bertemu dan di tempatkan di lingkungan baru,
-                   selain itu saya juga mampu berkomunikasi dengan bahasa Indonesia yang sopan dan baik.
-                   Saya juga dapat bersikap dengan ramah,bekerja secara mandiri dan dan tepat waktu maupun dalam tim,
-                   sehingga saya yakin dapat berkontribusi dengan baik.Adapun beberapa pengalaman saya dalam 
-                   bekerja sama dengan tim: </p>
-    <body>
-        <h2 class="hana4">Pengalaman</h2>
-        <table border="1">
+    <div class="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 >About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Helloo,,,, nama lengkap saya adalah Raihana Salsabila dan saya sekarang berumur 21 tahun.
+                        Saya memiliki kemampuan mudah beradaptasi ketika bertemu dan di tempatkan di lingkungan baru,
+                        selain itu saya juga mampu berkomunikasi dengan bahasa Indonesia yang sopan dan baik.
+                        Saya juga dapat bersikap dengan ramah,bekerja secara mandiri dan dan tepat waktu maupun dalam tim,
+                        sehingga saya yakin dapat berkontribusi dengan baik.Adapun beberapa pengalaman saya dalam 
+                        bekerja sama dengan tim</p>
+                </div> 
+                <div class="col">
+                    <p>Saat ini saya sedang melaksanakan Study Independen di SEAL by AWS.Dengan adanya program ini
+                        sangat bermanfaat bagi saya di karenakan materi-materi yang di berikan yakni materi yang 
+                        sebagian belum saya ketahui dan baru saya dapatkan ketika di SEAL.Sehingga saya berharap
+                        pembelajaran yang saya dapatkan pada Study Independen ini dapat bermanfaat bagi saya kedepannya.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,138.7C384,128,480,160,576,192C672,224,768,256,864,229.3C960,203,1056,117,1152,85.3C1248,53,1344,75,1392,85.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          
+    </div>
+
+   <div class="experience">
+    <div class="container">
+    </div>
+    <h3 class="han text-center ">Experience</h3>
+    <table class="table table-bordered">
+        <thead>
             <tr>
-                <th>Tahun</th>
-                <th>Kegiatan</th>
-              </tr>
-              <tr>
-                <td>2022</td>
-                <td>Kampus Mengajar</td>
-              </tr> 
-              <tr>
-                <td>2020</td>
-                <td>Forum Pemuda</td>
-              </tr> 
-              <tr>
-                <td>2022</td>
-                <td>Wakil Ketua Himpunan</td>
-              </tr> 
-              <tr>
-                <td>2021</td>
-                <td>Anggota Himpunana Mahasiswa Islam</td>
-              </tr>
-        </table>
-           <p class="hana5">Jika kalian ingin menghubungi saya kalian dapat mengklik dari link berikut:</p>
-           <p><a href="https://www.instagram.com/hanahabsyi_/"> Instagram : hanahabsyi_</a></p>
-    </body>
-                            <p class="hana6">Terima Kasih sudah mengunjungi link ini,,,</p>
+                <th>Wakil ketua Himpunan</th>
+                <th>Alumni Kampus Mengajar 3</th>
+                <th>Anggota Forum Pemuda</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>2022-Sekarang</th>
+                <th>Februari-Juni 2022</th>
+                <th>2020-Sekarang</th>
+            </tr>
+
+        </tbody>
+       
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
 </html>
